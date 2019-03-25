@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class MainMenu : MonoBehaviour {
 
          public void Playgame ()
@@ -13,7 +12,7 @@ public class MainMenu : MonoBehaviour {
          {
              Application.Quit();
          }
-         public void OnClick ()
+         public void Options ()
          {
              SceneManager.LoadScene("Options");
          }
