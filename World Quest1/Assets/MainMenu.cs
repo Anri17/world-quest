@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class MainMenu : MonoBehaviour {
 
          public void Playgame ()
@@ -14,7 +15,7 @@ public class MainMenu : MonoBehaviour {
          }
          public void OnClick ()
          {
-             SceneManager.LoadScene("options");
+             SceneManager.LoadScene("Options");
          }
          
 }
