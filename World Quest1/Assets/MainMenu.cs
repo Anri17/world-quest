@@ -4,18 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
-         public void Playgame ()
-         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-         }
-         public void QuitGame ()
-         {
-             Application.Quit();
-         }
-         public void Options ()
-         {
-             SceneManager.LoadScene("Options");
-         }
+    public void PlayGame ()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void OptionsMenu()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void QuitGame ()
+    {
+        Application.Quit();
+    }
          
 }
 
