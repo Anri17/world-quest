@@ -6,11 +6,17 @@ public class MusicOnAllScenes : MonoBehaviour
 {
 
     AudioSource audioSource;
+    public static float volumeValue = 1f;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.volume = PlayerPrefs.GetFloat("SliderVolumeLevel", audioSource.volume);
+        audioSource.volume = volumeValue;
+    }
+
+    void Update()
+    {
+        audioSource.volume = volumeValue;
     }
 
     private static MusicOnAllScenes instance = null;
@@ -32,11 +38,6 @@ public class MusicOnAllScenes : MonoBehaviour
         }
 
         DontDestroyOnLoad(this.gameObject);
-    }
-
-    void Update()
-    {
-
     }
 
 }

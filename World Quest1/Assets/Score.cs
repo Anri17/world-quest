@@ -6,22 +6,37 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public Button rightAnswer;
-    private int score;
+    Text scoreText;
+    bool rightAnswer = false;
 
+    //Initializes the Score from Data class
     void Start()
     {
-        rightAnswer.onClick.AddListener(() => ButtonClicked());
+        scoreText = GetComponent<Text>();
+        scoreText.text = Data.scoreCount.ToString();
     }
 
-    private void ButtonClicked()
+    //Sets the new Data.score, and displays it
+    public void ClickRightAnswer()
     {
-        score += 100;
-        Debug.Log($"Score is {score}");
+        Data.scoreCount += 100;
+        scoreText.text = Data.scoreCount.ToString();
+        Debug.Log($"Score is {Data.scoreCount}");
+        rightAnswer = true;
     }
 
-    void Update()
+    //Checks for answer and adds to the right or wrong answers.
+    public void CheckQuestionAnswer()
     {
-
+        if (rightAnswer)
+        {
+            Data.rightAnswerCount += 1;
+            Debug.Log($"Number of Right Answers: {Data.rightAnswerCount}");
+        }
+        else
+        {
+            Data.wrongAnswerCount += 1;
+            Debug.Log($"Number of Wrong Answers: {Data.wrongAnswerCount}");
+        }
     }
 }
