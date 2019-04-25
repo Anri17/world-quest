@@ -2517,8 +2517,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855022428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 28, z: 0}
-  m_LocalScale: {x: 50.152084, y: 50.152084, z: 50.152084}
+  m_LocalPosition: {x: -0, y: 40, z: 0}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 971670860}
   m_RootOrder: 5
@@ -2859,7 +2859,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.000024318695}
-  m_SizeDelta: {x: 1683.2, y: 180.8}
+  m_SizeDelta: {x: 1500, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029571865
 MonoBehaviour:
@@ -2894,7 +2894,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1- Quais destas s\xE3o Energias Renov\xE1veis ?"
+  m_Text: "1 - Quais destas s\xE3o Energias Renov\xE1veis?"
 --- !u!222 &1029571866
 CanvasRenderer:
   m_ObjectHideFlags: 0

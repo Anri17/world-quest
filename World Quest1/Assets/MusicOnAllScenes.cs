@@ -12,6 +12,7 @@ public class MusicOnAllScenes : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.volume = volumeValue;
+        audioSource.Play();
     }
 
     void Update()
