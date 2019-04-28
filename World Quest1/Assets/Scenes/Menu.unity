@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 197577509}
   - component: {fileID: 197577508}
   - component: {fileID: 197577507}
+  - component: {fileID: 197577510}
   m_Layer: 5
   m_Name: BotaoJogar
   m_TagString: Untagged
@@ -323,6 +324,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197577505}
   m_CullTransparentMesh: 0
+--- !u!114 &197577510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197577505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3513bf61c1e3144db6fe0e337f8bf2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: cfdd518136b9b8c4eb11e63d4669abe2, type: 3}
 --- !u!1 &212570310
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +349,7 @@ GameObject:
   - component: {fileID: 212570314}
   - component: {fileID: 212570313}
   - component: {fileID: 212570312}
+  - component: {fileID: 212570315}
   m_Layer: 5
   m_Name: BotaoSair
   m_TagString: Untagged
@@ -452,6 +467,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212570310}
   m_CullTransparentMesh: 0
+--- !u!114 &212570315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212570310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3513bf61c1e3144db6fe0e337f8bf2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: cfdd518136b9b8c4eb11e63d4669abe2, type: 3}
 --- !u!1 &473870220
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +652,7 @@ GameObject:
   - component: {fileID: 539712874}
   - component: {fileID: 539712873}
   - component: {fileID: 539712872}
+  - component: {fileID: 539712875}
   m_Layer: 5
   m_Name: "BotaoOp\xE7oes"
   m_TagString: Untagged
@@ -741,6 +770,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539712870}
   m_CullTransparentMesh: 0
+--- !u!114 &539712875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539712870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3513bf61c1e3144db6fe0e337f8bf2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: cfdd518136b9b8c4eb11e63d4669abe2, type: 3}
 --- !u!1 &688398957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,7 +1353,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 44cfb1c037afa5a4c90f166f06d46c06, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2bd9ab6078619ff49b2f4e6c66c24a0c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
