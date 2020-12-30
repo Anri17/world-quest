@@ -9,9 +9,10 @@ public class Data : MonoBehaviour
     public static int rightAnswerCount = 0;
     public static int wrongAnswerCount = 0;
 
-    //Dont delete when scene changes. (maybe you dont need this after all. It works without it)
-    /*private void Awake()
+    public static void ResetData()
     {
-        DontDestroyOnLoad(this);
-    }*/
+        scoreCount = 0;
+        rightAnswerCount = 0;
+        wrongAnswerCount = 0;
+    }
 }
