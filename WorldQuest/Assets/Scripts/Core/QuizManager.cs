@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace WorldQuest
+namespace WorldQuest.Core
 {
     public class QuizManager : MonoBehaviour
     {
