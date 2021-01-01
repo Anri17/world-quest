@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WorldQuest.Question
+namespace WorldQuest.Quiz
 {
     public class Question
     {

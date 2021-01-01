@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace WorldQuest.Question
+namespace WorldQuest.Quiz
 {
     public class Quiz
     {

@@ -14,9 +14,14 @@ public class MainMenu : MonoBehaviour {
         Debug.Log($"Wrong answer count is {Data.wrongAnswerCount}");
     }
 
-    public void PlayGame ()
+    public void PlayGame()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void LoadQuizEditor()
+    {
+        SceneManager.LoadScene("QuizEditor");
     }
 
     public void OptionsMenu()
@@ -24,7 +29,7 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene(1);
     }
 
-    public void QuitGame ()
+    public void QuitGame()
     {
         Application.Quit();
     }

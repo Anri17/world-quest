@@ -1,4 +1,4 @@
-﻿namespace WorldQuest.Question
+﻿namespace WorldQuest.Quiz
 {
     public class Answer
     {
